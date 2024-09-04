@@ -1,17 +1,22 @@
-
+.container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: vh%;
+}
 .card{
-   
+    background-color: beige !important;
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: beige !important;
 }
 
 .btn{
-    height: 150px;
-    width: 160px;
+    height: 130px;
+    width: 130px;
     margin: 3PX;
     background-color: darkkhaki !important;
     font-size: 50px !important;
@@ -26,19 +31,13 @@
 }
 
 .resetbtn{
-    width: 40%;
-    margin-top: 40px;
-    height: 80px;
+    width: 250px;
+    margin-top: 20px;
+    height: 50px;
     border: none;
     background-color: black;
     color : white;
     border-radius: 10px;
-    font-size: 40px;
+    font-size: 20px;
 
-}
-
-.heading{
-    margin-bottom: 40px;
-    color: darkkhaki;
-    font-size: 60px;
 }
