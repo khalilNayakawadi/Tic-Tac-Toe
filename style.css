@@ -1,0 +1,43 @@
+.container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.card{
+    background-color: beige !important;
+    height: 600px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 100px;
+    width: 100px;
+    margin: 3PX;
+    background-color: darkkhaki !important;
+    font-size: 50px !important;
+    border-radius: 15px;
+}
+
+.btndiv{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resetbtn{
+    width: 70%;
+    margin-top: 20px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color : white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
