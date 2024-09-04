@@ -1,17 +1,12 @@
-.background{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: beige !important;
-}
+
 .card{
    
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
-    background-color: beige !important;
     justify-content: center;
     align-items: center;
+    background-color: beige !important;
 }
 
 .btn{
