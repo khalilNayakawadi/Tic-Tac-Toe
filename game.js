@@ -5,6 +5,7 @@ let turnO = true;
 for (const box of boxes) {
     box.addEventListener("click",()=>{
         if(turnO){
+            box.classList.add("flip-horizontal-bottom")
             box.innerText = "O";
             turnO = false;
             
