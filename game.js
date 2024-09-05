@@ -25,6 +25,7 @@ resetbtn.addEventListener("click",()=>{
         box.innerText = "";
         box.disabled = false;
         document.querySelector(".heading").innerText = "Tic Tac Toe";;
+        card.classList.remove("cardbackground")
     }
 })
 

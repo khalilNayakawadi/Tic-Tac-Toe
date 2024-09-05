@@ -1,6 +1,6 @@
 
 .card{
-    background-color: beige !important;
+    background-color: rgb(0, 0, 0) !important;
     height: 100vh;
     width: 100%;
     display: flex;
@@ -29,8 +29,8 @@
     margin-top: 20px;
     height: 50px;
     border: none;
-    background-color: black;
-    color : white;
+    background-color: rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
     border-radius: 10px;
     font-size: 20px;
 
@@ -45,10 +45,9 @@
 }
 
 .cardbackground{
-  background-image: url("https://media0.giphy.com/media/deo0IiysCArqhmHy6K/source.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("https://static.dribbble.com/users/1476693/screenshots/7986326/fireworks.gif");
+  background-size: contain;
+ 
 }
 
 .flip-horizontal-bottom {
