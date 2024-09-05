@@ -46,8 +46,9 @@
 
 .cardbackground{
   background-image: url("https://static.dribbble.com/users/1476693/screenshots/7986326/fireworks.gif");
-  background-size: contain;
- 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .flip-horizontal-bottom {
