@@ -1,6 +1,8 @@
 let boxes = document.getElementsByClassName("btn");
 let resetbtn = document.querySelector(".resetbtn");
 let turnO = true;
+let card = document.querySelector(".card");
+
 
 for (const box of boxes) {
     box.addEventListener("click",()=>{
@@ -22,6 +24,7 @@ resetbtn.addEventListener("click",()=>{
     for (const box of boxes) {
         box.innerText = "";
         box.disabled = false;
+        document.querySelector(".heading").innerText = "Tic Tac Toe";;
     }
 })
 
@@ -48,10 +51,19 @@ const checkWinner = ()=>{
             {
                 if(posVal1 === "O")
                 {
-                    document.querySelector(".heading").innerText = "Player 1 Win 👑"
+                    document.querySelector(".heading").innerText = "Player 1 Win 👑";
+                    card.classList.add("cardbackground")
+                    for (const box of boxes) {
+                        box.disabled = true;
+                    }
+                    
                 }
                 else{
                      document.querySelector(".heading").innerText = "Player 2 Win👑"
+                     card.classList.add("cardbackground")
+                     for (const box of boxes) {
+                        box.disabled = true
+                    }
                 }
 
             }

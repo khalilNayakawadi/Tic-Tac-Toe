@@ -44,6 +44,13 @@
     font-weight: bolder;
 }
 
+.cardbackground{
+  background-image: url("https://media0.giphy.com/media/deo0IiysCArqhmHy6K/source.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .flip-horizontal-bottom {
 	-webkit-animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 	        animation: flip-horizontal-bottom 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
